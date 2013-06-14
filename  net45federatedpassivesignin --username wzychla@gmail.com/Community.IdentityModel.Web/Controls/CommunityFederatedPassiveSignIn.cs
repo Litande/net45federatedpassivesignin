@@ -11,7 +11,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Xml;
 
-namespace Community.FederatedPassiveSignIn
+namespace Community.IdentityModel.Web.Controls
 {
     /// <summary>
     /// Substitute of wif:FederatedPassiveSignIn control
