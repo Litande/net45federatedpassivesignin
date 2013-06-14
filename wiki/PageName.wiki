@@ -12,7 +12,7 @@ This project aims to recreate the basic functionality of the forementioned contr
 
 The source code contains a single class, *CommunityFederatedPassiveSignIn*. The basic usage would be
 
-`
+{{{
 <%@ Register 
     TagPrefix="community" 
     Assembly="Community.IdentityModel.Web" 
@@ -38,4 +38,4 @@ The source code contains a single class, *CommunityFederatedPassiveSignIn*. The 
     </form>
 </body>
 </html>
-`
+}}}
