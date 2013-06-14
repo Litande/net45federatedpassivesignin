@@ -10,4 +10,32 @@ This project aims to recreate the basic functionality of the forementioned contr
 
 = Details =
 
-The source code contains a single class, *CommunityFederatedPassiveSignIn*. The basic usage is
+The source code contains a single class, *CommunityFederatedPassiveSignIn*. The basic usage would be
+
+`
+<%@ Register 
+    TagPrefix="community" 
+    Assembly="Community.IdentityModel.Web" 
+    Namespace="Community.IdentityModel.Web.Controls" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <community:CommunityFederatedPassiveSignIn
+                ID="WSFederationLogin"
+                runat="server"
+                Realm="http://localhost:56118/LoginPage.aspx"
+                Issuer="http://localhost:56117/Default.aspx">
+            </community:CommunityFederatedPassiveSignIn>
+            <asp:Button ID="Another" Text="foo" runat="server" />
+        </div>
+    </form>
+</body>
+</html>
+`
