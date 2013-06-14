@@ -39,3 +39,8 @@ The source code contains a single class, *CommunityFederatedPassiveSignIn*. The 
 </body>
 </html>
 }}}
+
+Currently only three properties are supported and match the original specification:
+  * *AutoSignIn*
+  * *Realm*
+  * *Issuer*
