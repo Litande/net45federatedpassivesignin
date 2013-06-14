@@ -13,6 +13,9 @@ using System.Xml;
 
 namespace Community.FederatedPassiveSignIn
 {
+    /// <summary>
+    /// Substitute of wif:FederatedPassiveSignIn control
+    /// </summary>
     public class CommunityFederatedPassiveSignIn :
         WebControl,
         IPostBackDataHandler
@@ -255,6 +258,8 @@ namespace Community.FederatedPassiveSignIn
 
         #endregion
 
+        #region Infrastructure
+
         public CommunityFederatedPassiveSignIn()
         {
             this.PreRender += CommunityFederatedPassiveSignIn_PreRender;
@@ -313,6 +318,8 @@ namespace Community.FederatedPassiveSignIn
 
             writer.WriteEndTag( "table" );
         }
+
+        #endregion
 
         #region IPostBackDataHandler Members
 
