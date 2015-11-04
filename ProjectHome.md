@@ -1,0 +1,1 @@
+The aim of this project is to recreate the wif:FederatedPassiveSignIn ASP.NET WebControl for .NET 4.5
